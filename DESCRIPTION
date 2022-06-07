@@ -1,0 +1,29 @@
+Package: action-test-proj
+Type: Package
+Title: Test
+Version: 0.1
+Date: 2022-06-03
+Authors@R: c(
+    person("Anders", "Henja", role = "aut", email = "anders.henja@gmail.com"))
+Description: Test
+License: LGPL (>= 3) + file LICENSE
+URL: https://github.com/andershenja/action-test-proj
+BugReports: https://github.com/andershenja/action-test-proj/issues
+Imports: 
+    assertthat,
+    methods,
+    Rcpp (>= 1.0.4),
+    rlang, 
+    utils,
+    withr
+LinkingTo: Rcpp, RcppGSL
+RoxygenNote: 7.2.0
+Roxygen: list(markdown = TRUE)
+VignetteBuilder: knitr
+SystemRequirements: GNU make
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Encoding: UTF-8
