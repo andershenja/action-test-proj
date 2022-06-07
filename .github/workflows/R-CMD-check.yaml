@@ -43,5 +43,6 @@ jobs:
           msys2 -c 'pacman --noconfirm -S mingw-w64-x86_64-proj'
           msys2 -c 'pacman --noconfirm -S mingw-w64-x86_64-pkg-config'
           msys2 -c '/mingw64/bin/pkg-config.exe --cflags proj'
-          #msys2 -c 'ls /x86_64-w64-mingw32.static.posix/include'
+          msys2 -c 'ls /'
+          msys2 -c 'pkg-config.exe --cflags proj'
 
