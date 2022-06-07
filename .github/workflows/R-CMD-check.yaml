@@ -30,9 +30,9 @@ jobs:
       - uses: r-lib/actions/setup-pandoc@v1
       
       - uses: msys2/setup-msys2@v2
-          with:
-            msystem: MSYS
-            update: true
+        with:
+          msystem: MSYS
+          update: true
             
       - name: Install windows dependencies
         run: |
